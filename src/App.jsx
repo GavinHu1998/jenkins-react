@@ -5,9 +5,7 @@ function App() {
 
   return (
     <>
-   <h1>Jenkins App 666777 Dan 11111
-
-   </h1>
+   <h1>Jenkins App</h1>
     </>
   )
 }
