@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-   <h1>Jenkins App Gavin</h1>
+   <h1>Yizhuo Hu (Gavin)</h1>
     </>
   )
 }
