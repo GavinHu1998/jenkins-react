@@ -40,7 +40,7 @@ pipeline {
 //         stage('Deploy') {
 //             agent {
 //                 docker {
-//                     image 'node:20.19-alpine'
+//                     image 'node:20.11.1-alpine'
 //                     reuseNode true
 //                 }
 //             }
