@@ -53,5 +53,6 @@ pipeline {
                 node_modules/.bin/netlify deploy --prod --dir=build
                 '''
             }
+        }
     }
 }
