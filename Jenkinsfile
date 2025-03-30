@@ -1,17 +1,20 @@
 pipeline {
     agent any
     stages {
-        stage('AWS'){
+        stage('Deploy'){
             agent{
                 docker {
                     image 'amazon/aws-cli'
                     reuseNode true
+                    args '--entrypoint=""'
                 }
             }
             steps {
                 sh'''
-                AWS --version
-                AWS s3 ls
+                aws --version
+                aws s3 ls
+                echo "Deploying to AWS S3" > index.html
+                
 
 
                 '''
