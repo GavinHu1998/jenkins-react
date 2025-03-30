@@ -14,7 +14,6 @@ pipeline {
                 sh'''
                 aws --version
                 aws s3 ls
-                # echo "Deploying to AWS S3" > index.html
                 '''
 }
             }
