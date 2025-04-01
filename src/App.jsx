@@ -5,7 +5,9 @@ function App() {
 
   return (
     <>
-   <h1>Yizhuo Hu (Gavin)</h1>
+   <h1>Group 6</h1>
+   <h1>Yizhuo Hu</h1>
+   <h1>Dan Lu</h1>
     </>
   )
 }
