@@ -1,9 +1,9 @@
 pipeline {
     agent any
-    environment {
-        NETLIFY_SITE_ID = '6bbd3023-e306-4e6f-9aee-315f3f0fa8f1'
-        NETLIFY_AUTH_TOKEN = credentials('myToken')
-    }
+    // environment {
+    //     NETLIFY_SITE_ID = '6bbd3023-e306-4e6f-9aee-315f3f0fa8f1'
+    //     NETLIFY_AUTH_TOKEN = credentials('myToken')
+    // }
     stages {
         stage('Docker'){
             steps{
@@ -42,7 +42,7 @@ pipeline {
                 '''
             }
         }
-        // stage('Deploy'){
+        // stage('Build My Docker Image'){
         //     agent{
         //         docker {
         //             // image 'node:20.19-alpine'
