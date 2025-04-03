@@ -42,7 +42,7 @@ pipeline {
                 '''
             }
         }
-        stage('Build My Docker Image'){
+        stage('Deploy') {
             agent{
                 docker {
                     // image 'node:20.19-alpine'
